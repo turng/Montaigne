@@ -13,7 +13,7 @@
                 <link rel="stylesheet" href=""/>
                 <style>
                     .bordeaux-text {
-                        font-style:italic;
+                        color: darkred;
                     }
                     
                     .text {

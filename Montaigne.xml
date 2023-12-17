@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="montaigne.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Montaigne, "To the Reader"</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>         
+         <div type="preface">
+            <head>To the Reader</head>
+            <p>You have here, Reader, a book whose faith can be trusted, a book which warns you from
+               the start that I have set myself no other end but a private family one. I have not
+               been concerned to serve you nor my reputation: my powers are inadequate for such a
+               design. I have dedicated this book to the private benefit of my friends and kinsmen
+               so that, having lost me (as they must do soon) they can find here again some traits
+               of my character and of my humours. They will thus keep their knowledge of me more
+               full, more alive. If my design had been to seek the favour of the world I would have
+                  <ref target="#n1"><seg source="bordeaux_copy">decked myself out better and
+                     presented myself in a studied gait</seg></ref><note xml:id="n1">The sections
+                  highlighted in another color indicate text that Montaigne added into the margins
+                  of his copy of the 1588 edition. This annotated copy is known as the Bordeaux
+                  copy.</note>. Here I want to be seen in my simple, natural, everyday fashion,
+               without striving or artifice: for <choice>
+                  <orig>c'est moi que je peins</orig>
+                  <reg>it is my own self that I am painting</reg>
+               </choice>. Here, drawn from life, you will read of my defects and my native form so
+               far as respect for social convention allows: for had I found myself among those
+               peoples who are said still to live under the sweet liberty of Nature’s primal laws, I
+               can assure you that I would most willingly have portrayed myself whole, and wholly
+               naked. </p>
+            <p> And therefore, Reader, I myself am the subject of my book: it is not reasonable that
+               you should employ your leisure on a topic so frivolous and so vain.</p>
+            <signed>Therefore, Farewell: From Montaigne; <ref target="#n2"><date><seg
+                        source="bordeaux_copy">this first of March, One thousand, five hundred and
+                        eighty</seg></date></ref><note xml:id="n2">In the 1588 edition, Montaigne's
+                  publisher had updated the original 1580 date to reflect the release of the new
+                  edition, and no doubt to mark the beginning of the term covered by publisher's new
+                  7-year privilege. In his corrections, Montaigne reverted back to the original date
+                  from the first edition.</note>.</signed>
+         </div>
+      </front>
+
+      <body>
+
+         <figure>
+            <figDesc>Portrait of Montaigne</figDesc>
+            <graphic
+               url="https://upload.wikimedia.org/wikipedia/commons/8/8b/Montaigne_1584_-_Martellange.jpg"
+            />
+         </figure>
+
+         <div type="chapter" n="18">
+            <head>On Giving the Lie</head>
+            <p>Yes. But somebody will tell me that my project of using myself as a subject to write
+               about would be pardonable in exceptional, famous men who by their reputations had
+               given us the desire to know them. That is certainly true: I admit it; I am aware that
+               a mere craftsman will scarcely glance up from his work to look at a man of the common
+               mould, whereas shops and work-places are emptied to look at a great and famous
+               personality arriving in town. It is unseemly for anyone to make himself known except
+               he who can provide some example and whose life and opinions can serve as a model.
+               Caesar and Xenophon could firmly base their narrations on the greatness of their
+               achivements which formed a just and solid foundation. So we can regret the loss of
+               the diaries of Alexander the Great and of the commentaries on their own actions which
+               Augusuts, <seg source="bordeaux_copy">Cato,</seg> Syll, Brutus and others left behind
+               them. We love to study the faces of such men even in bronze and stone.</p>
+            <p>That rebuke is very true: but it hardly touches on me:</p>
+
+            <cit>
+               <quote xml:lang="la">Non recito cuiquam, nisi amicis, idque rogatus, <lb/>Non ubivis,
+                  coramve quibuslibet. In medio qui <lb/>Scripto foro recitent, sunt multi, quique
+                  lavantes.</quote>
+
+               <quote xml:lang="en">I do not read this to anyone except my friends; even then they
+                  have to ask me; I do not do so anywhere or to anyone. Some men read their works to
+                  the public in the Forum or in the baths!</quote>
+            </cit>
+
+            <p>I am not preparing a statue to erect at a city crossorads nor in a Church or some
+               other public place:</p>
+
+            <cit>
+               <quote xml:lang="la">Non equidem hoc studeo, bullatis ut mihi musis <lb/>Pagina turgescat.
+                  <lb/>Secreti loquimur.</quote>
+
+               <quote xml:lang="en">I do not intend to puff up my pages with inflated trifles: we
+                  are talking in private.</quote>
+            </cit>
+
+            <p>It is <seg source="bordeaux_copy">for some corder of a library and as a pastime</seg>
+               for a neighbour, a relative or a friend who will find pleasure in meeting me and
+               frequenting me again through this portrait. Those others took heart to speak of
+               themselves because they found their subject rich and worthwhile: I on the contrary
+               because I find it so sterile and meagre that no suspicion of ostentation can fall
+               upon me.</p>
+
+            <p>However, if my own descendants have different tastes, I shall have the means of
+               giving as good as I get, since when that time comes they cannot possibly have less
+               concern of me than I will for them! The only commerce I have with the public at large
+               is my borrowing their printing-tools, which are more ready and convenient. In
+               exchange <ref target="#n3"><seg source="bordeaux_copy">I may provide wrapping-paper
+                     to stop some slab of butter from melting in the market</seg></ref><note
+                  xml:id="n3">Note the intensified irony in Montaigne's 1588 editions</note>:</p>
+            <cit>
+               <quote xml:lang="la">Ne toga cordyllis, ne penula desit olivis;</quote>
+
+               <quote xml:lang="en">Lest they are short of wrappings for their tunny-fish or their
+                  olives;</quote>
+            </cit>
+
+            <cit>
+               <quote xml:lang="la">Et laxas scombris saepe dabo tunicas.</quote>
+
+               <quote xml:lang="en">And I shall often provide a loose garment to wrap up their
+                  mackerel.</quote>
+            </cit>
+
+            <p><seg source="bordeaux_copy">Even if nobody reads me, have I wasted my time when I
+                  have entertained myself during so many idle hours with thoughts so useful and
+                  agreable?</seg></p>
+         </div>
+
+
+
+         <div type="chapter" n="19">
+            <head>On Freedom of Conscience</head>
+
+            <p>It is quite normal to see good intentions, when not carried out with moderation,
+               urging men to actions which are truly vicious. In the present quarrel which is
+               driving France to distraction with its <ref target="#n4">civil wars</ref><note
+                  xml:id="n4">Montaigne is referring to the Religious Wars, a series of nine wars
+                  between Protestant and Catholic parties, which tore France apart between 1561 and
+                  1594.</note>, the better and more wholesome party is certainly the one upholding
+               the religion and constitution of our country. Now among the men of honour who support
+               it (for I am not talking about people who use it as a pretext for settling private
+               scores, satisfying their greed or courting the favour of princes but about those who
+               support it out of true zeal for their religion and a secred desire to defend the
+               peace and good estate of their homeland) even among such men as those you can find
+               many who, once passion drives them beyond the bounds of reason, take decisions which
+               are unjust, violent and rash.</p>
+            <p>It is certain that, in those early days when our religion begin to be becaked by the
+               authority of law, zeal provided many with weapons to use against all sorts of pagan
+               books, causing the learned public to suffer staggering losses. I reckon that this
+               inordinate zeal caused more harm to literature than all the fires started by the
+               Barbarians.</p>
+
+         </div>
+      </body>
+   </text>
+</TEI>
